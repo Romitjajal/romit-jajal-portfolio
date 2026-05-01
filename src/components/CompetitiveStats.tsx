@@ -15,15 +15,16 @@ const CompetitiveStats: React.FC = () => {
     {
       id: 1,
       title: 'Full Stack Developer',
-      company: 'Resume Analysis Platform',
-      period: 'Nov 2025 – Present',
+      company: 'AI Resume CoPilot',
+      period: 'Nov 2025 – May 2026',
       location: 'Personal Project · Australia',
       description: [
-        'Built and deployed a production-ready application for analysing resumes against job descriptions with real-time scoring and feedback.',
-        'Designed backend REST APIs in Node.js and TypeScript for parsing, keyword matching, and scoring workflows.',
-        'Developed a responsive Next.js frontend with interactive dashboards and seamless upload flows.',
-        'Integrated Prisma ORM with PostgreSQL to improve data access and query performance.',
-        'Currently integrating AI-driven features using LLM-based approaches.',
+        'Built a tool to solve the problem of rewriting resumes for every job by automatically comparing resumes with job descriptions and generating more ATS-friendly versions.',
+        'Designed backend APIs using Node.js and TypeScript to handle resume parsing, keyword matching, scoring, and AI-based rewriting.',
+        'Integrated OpenAI to improve resume content based on job requirements while keeping it truthful to the original experience.',
+        'Developed the frontend using Next.js with features like resume upload, scoring dashboard, and history tracking.',
+        'Used Prisma and PostgreSQL to store resume data and support user-based history.',
+        'Deployed the application on Vercel and focused on keeping it simple, fast, and usable for real job applications.',
       ],
     },
     {

@@ -15,11 +15,11 @@ const ProjectsSection: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'Resume Analysis Platform',
+      title: 'AI Resume CoPilot',
       description:
         'A production-ready full stack application that analyses resumes against job descriptions and delivers real-time scoring, structured feedback, and improvement insights.',
-      techStack: ['Next.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'Prisma'],
-      liveLink: 'https://resume-match-analyzer-six.vercel.app/login',
+      techStack: ['Next.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'Prisma', 'OpenAI API'],
+      liveLink: 'https://ai-cv-optimizer-pink.vercel.app/',
       githubLink: 'https://github.com/Romitjajal/resume-match-analyzer',
     },
     {
